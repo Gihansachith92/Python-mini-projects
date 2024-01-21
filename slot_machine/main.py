@@ -1,5 +1,5 @@
 
-def deposite():
+def deposit():
   while True:
     amount = input("what would you like to deposite? $")
     if amount.isdigit():
