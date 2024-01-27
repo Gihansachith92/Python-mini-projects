@@ -33,7 +33,7 @@ def get_number_of_lines():
 
   return lines 
 
-
+ 
 def get_bet():
   while True:
     amount = input("What would you like to bet on each lines? $")
