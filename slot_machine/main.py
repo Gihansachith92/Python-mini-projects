@@ -1,3 +1,4 @@
+MAX_LINES = 3
 
 def deposit():
   while True:
@@ -12,4 +13,11 @@ def deposit():
     else:
       print("Please enter a number.")
 
-  return amount         
+  return amount  
+
+
+def main():
+    balance = deposit() 
+
+
+main()    
